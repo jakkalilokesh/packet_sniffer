@@ -30,6 +30,8 @@ Run with root privileges:
 ```bash
 sudo python3 main.py
 
+---
+
 Use dropdown to choose a BPF-safe filter like tcp, udp, icmp, port 80, etc.
 
 ## 📂 Output Options:
