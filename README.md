@@ -21,3 +21,25 @@ A powerful, GUI-based basic packet sniffer inspired by Wireshark. Built with Pyt
 git clone https://github.com/yourusername/Basic_Packet_Sniffer.git
 cd Basic_Packet_Sniffer
 pip install -r requirements.txt
+
+---
+
+## 🧪 How to Run
+Run with root privileges:
+
+```bash
+sudo python3 main.py
+
+Use dropdown to choose a BPF-safe filter like tcp, udp, icmp, port 80, etc.
+
+## 📂 Output Options:
+ - 📁 Save packets as .pcap
+ - 📊 Export data to .csv
+ - 📉 Visualize live protocol usage
+
+## 🤖 Powered By: 
+ - Python
+ - Scapy
+ - Matplotlib
+ - Tkinter
+Built with the help of AI-assisted development using ChatGPT.
